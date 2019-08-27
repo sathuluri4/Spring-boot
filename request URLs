@@ -1,0 +1,23 @@
+1.) Get Request
+  http://localhost:8081/Welcome?userName=Kranthi
+
+2.) Post Request
+    http://localhost:8081/addMultipleUser
+  post Data:
+  
+  [
+      {
+        "userName": "M2U",
+        "userID":"123",
+        "email":"kk@gmail.com"
+      }
+  ]
+  
+3.) Post Request
+    http://localhost:8081/addUser
+
+   post Data {
+      "userName": "M2U",
+      "userID":"123",
+      "email":"kk@gmail.com"
+    }
